@@ -26,7 +26,7 @@ Wenn du das Spiel über Steam erworben hast, kannst du den Installationspfad wie
 - Öffne im Explorer den Ordner, in dem du den Language Switcher entpackt hast. Du müsstest dort folgende Dateien vorfinden:
   - Switch to Localized.vbs
   - Switch to Original.vbs
-- Erstelle zunächst einen Unterordner mit dem Ordnernamen **localized_files** und **backup_original_files** . **_Diese Ordner MÜSSEN vorhanden sein. Leider lässt mich github keine leeren Ordner erstellen_** 
+- Erstelle zunächst einen Unterordner mit dem Ordnernamen **localized_files** und **backup_original_files** . **_Diese Ordner MÜSSEN vorhanden sein. Leider lässt mich github keine leeren Ordner erstellen, deswegen sind sie nicht schon im Repo drin, sorry._** 
 - öffne den neuen Unterordner "localized_files".
 - entpacke hier das Language Pack für das entsprechende Jackbox Party Pack. Die Spieldateien und Ordner müssen direkt in diesem Ordner liegen. Wenn du das Language Pack von github heruntergeladen hast, gibt es zuerst noch einen Hauptordner mit dem Namen des Jackbox Party Packs, du musst die Dateien daraus also eine Ebene höher verschieben, so dass diese direkt im Ordner "localized_files" liegen. Gehe einfach sicher, dass die Dateien so entpackt werden, dass der Ordner "games" direkt im Ordner "localized_files" liegt ;)
 
