@@ -16,7 +16,9 @@ If objFolder.Files.Count = 0 And objFolder.SubFolders.Count = 0 Then
 		End If
 		copyto = Replace(file.Path, locdir, backupdir)
 		copyfrom = Replace(file.Path, locdir, gamedir)
-		fso.CopyFile copyfrom, copyto, True
+		if (fso.FileExists(copyfrom)) Then
+			fso.CopyFile copyfrom, copyto, True
+		End If
 		fso.CopyFile file.Path, copyfrom, True
 	Next
 	MsgBox "Sprache erfolgreich in lokalisierte Version gewechselt."
